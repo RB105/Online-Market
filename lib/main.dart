@@ -34,10 +34,7 @@ class MyApp extends StatelessWidget {
           locale: context.locale,
           localizationsDelegates: context.localizationDelegates,
           supportedLocales: context.supportedLocales,
-          home: const DefaultTabController(
-            length: 3,
-            child: HomePage(),
-          ),
+          home: const HomePage(),
           debugShowCheckedModeBanner: false,
         );
       },
